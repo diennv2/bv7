@@ -3,3 +3,4 @@ source/
 thumbs/
 upload/
 file/
+.env
