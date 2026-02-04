@@ -1,0 +1,29 @@
+.menu-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.menu-link {
+    font-family: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: inherit;
+    border: none;
+    color: var(--color-black);
+    text-rendering: optimizeLegibility;
+    transition: all 0.35s ease-in-out;
+}
+.menu-item{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: inherit;
+    border: none;
+    outline: none;
+    color: var(--color-indigo);
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,130 @@
+.title-section h2 {
+    font-size: 24px;
+}
+
+.footer-review-content form .wrap-group-radio {
+    font-size: 16px;
+}
+
+.aside-introduction .title-section h2 {
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.menu-primary .main-menu ul li a {
+    font-weight: 500 !important;
+}
+
+.header-top, .aside-introduction .title-section h2, .footer-grateful, .home-news-patient .news-patient-time {
+    background: #319243 !important;
+    border-radius: 2px;
+}
+
+.title-section h2, .page-title h1 {
+    color: #319243 !important;
+}
+
+.header-bottom .header-bottom-content .logo .slogan span {
+    color: #08540f !important;
+    letter-spacing: 0.3px;
+}
+
+    .header-bottom .header-bottom-content .logo .slogan span:last-child {
+        color: red !important;
+    }
+
+.footer-grateful .title-section h2 {
+    color: #fff !important;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.footer-review-content .title-section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.header {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    border-bottom: 1px #ccc solid;
+    background: #ededed;
+}
+
+main {
+    padding-top: 175px;
+}
+
+@media (max-width:767px) {
+    .header {
+        position: relative !important;
+    }
+
+    main {
+        padding-top: 0px !important;
+    }
+}
+
+.form-tuvan input[type=button] {
+    color: #fff;
+    padding: 5px 20px;
+    margin: 15px 0;
+    border: none;
+    font-size: 18px;
+    background: #319243;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.footer-grateful .item figure img {
+    max-width: 100px;
+}
+
+.footer-grateful .item .info .title h3 {
+    padding: 0px 10%;
+    text-align: left;
+}
+
+.footer-grateful .slick-slider .slick-dots {
+    bottom: 10px;
+}
+
+.footer-review-content form .wrap-group input {
+    line-height: inherit;
+}
+
+.footer-review-content form span {
+    font-size: 15px;
+}
+
+.footer-review-content {
+    padding: 10px 0 0;
+}
+
+    .footer-review-content form {
+        padding-bottom: 12px;
+    }
+
+        .footer-review-content form .wrap-group-submit input {
+            margin: 10px 0px 0px;
+        }
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.pagenavi {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.linknavi {
+    font-size: 13px;
+    font-weight: bold;
+}

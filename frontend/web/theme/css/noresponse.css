@@ -1,0 +1,427 @@
+.topbar-img {
+    width: 100%;
+    height: auto
+}
+
+.main-header .fist-col {
+    background: #fff;
+    height: 53px;
+    padding: 10px
+}
+
+.main-header .fist-col input {
+    padding-right: 35px;
+    border-radius: 0;
+    border-color: #e33135;
+    display: inline-block;
+    width: 220px;
+    float: left
+}
+
+.width100 {
+    width: 100%
+}
+
+.main-header .col-md-4 {
+    height: 53px
+}
+
+#main-menu li {
+    display: inline-block;
+    position: relative;
+    float: left;
+    height: 53px
+}
+
+.cart-link, .site-nav-hassub a:not(.pro-title-view):not(.linktocart) {
+    color: #fff
+}
+
+.nopaddingbottop {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important
+}
+
+.paddingbottop5 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important
+}
+
+.linkaccount, .site-nav-link {
+    height: 53px;
+    text-align: center !important
+}
+
+.nav-item.desknav {
+    padding-top: 0 5px !important
+}
+
+.site-nav-hassub img {
+    display: block;
+    margin: auto
+}
+
+.site-nav-hassub {
+    padding-top: 2px
+}
+
+#main-menu {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between
+}
+
+#logo {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    float: left
+}
+
+#logo img {
+    height: 40px
+}
+
+.margin-top-10 {
+    margin-top: 10px
+}
+
+.product-thumb.upload.mTSThumbContainer {
+    margin: 2 dpx !important
+}
+
+.product-thumb.upload.mTSThumbContainer a {
+    padding: 5px !important;
+    text-align: center
+}
+
+.product-thumb.upload.mTSThumbContainer a img {
+    height: 100%;
+    margin: auto
+}
+
+.information-more {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+    padding: 5px 10px 12px;
+    background: #fff;
+    padding-bottom: 10px;
+    line-height: 20px
+}
+
+.information-more p {
+    margin-bottom: 10px
+}
+
+.thongdiepnho ul li:not(:last-child) {
+    border-bottom: 1px solid #f3f3f3
+}
+
+.thongdiepnho ul li {
+    padding: 10px 0
+}
+
+.thongdiepnho a {
+    color: #e33135
+}
+
+.more-details-info ul {
+    padding-left: 10px
+}
+
+#price-preview .sale-value {
+    font-weight: bolder !important
+}
+
+.text-hethang {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    border-radius: 10px;
+    background: #ff0000d1;
+    padding: 2px 5px;
+    color: #fff
+}
+
+.table-phienban {
+    margin-bottom: 0
+}
+
+.table-phienban td {
+    padding: 5px 0 !important;
+    border: none !important
+}
+
+.phienbanselect {
+    height: 30px
+}
+
+#phienbanselect {
+    padding: 0;
+    position: relative
+}
+
+.price-phienban {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    margin: 9px 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 95%
+}
+
+input[type=radio][name=selectthuoctinh] {
+    transform: scale(1.5)
+}
+
+.price-phienban .product-price {
+    font-size: 18px !important;
+    color: #e33135;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.phienbanselect {
+    font-weight: 100;
+    color: #e33135;
+    font-size: 16px
+}
+
+.price-phienban del {
+    font-size: 14px !important;
+    color: #999;
+    font-weight: 100
+}
+
+#phienbanselect .owl-nav {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: block
+}
+
+#phienbanselect .fa-angle-left:before, #phienbanselect .fa-angle-right:before {
+    font-size: 40px;
+    font-weight: 100;
+    color: #000
+}
+
+#phienbanselect .owl-nav .owl-next {
+    position: absolute;
+    right: -15px !important;
+    background: 0 0 !important
+}
+
+#phienbanselect .owl-nav .owl-prev {
+    position: absolute;
+    left: -15px !important;
+    background: 0 0 !important
+}
+
+.onlinepromo {
+    border: #d0021b solid 1px;
+    border-radius: 4px;
+    padding: 20px 0 10px;
+    position: relative;
+    overflow: visible;
+    margin: 20px 10px 0
+}
+
+.onlinepromo b {
+    background: #ec1933;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: -13px;
+    left: 10px;
+    vertical-align: middle;
+    line-height: 26px;
+    clear: both;
+    padding: 0 15px 0 30px
+}
+
+.onlinepromo b:before {
+    content: '';
+    background: url(/images/icon-qua-tang@2x.png);
+    width: 16px;
+    height: 15px;
+    background-size: 16px 15px;
+    float: left;
+    margin: 4px 5px 0 -15px
+}
+
+.infopr p {
+    padding-left: 10px
+}
+
+.buy_now_1 {
+    display: block;
+    overflow: hidden;
+    padding: 7px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-align: center;
+    background: #fd6e1d;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fd6e1d), to(#f59000));
+    background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+    background: -moz-linear-gradient(top, #f59000, #fd6e1d);
+    background: -ms-linear-gradient(top, #f59000, #fd6e1d);
+    background: -o-linear-gradient(top, #f59000, #fd6e1d)
+}
+
+.buy_now span {
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    text-transform: none;
+    padding-top: 3px
+}
+
+.themvaogiohang {
+    width: 100%
+}
+
+.muangay_1, .muatragop {
+    width: 100%
+}
+
+.product-title h1 {
+    font-size: 20px;
+    margin-top: 0
+}
+
+.text-giamgia {
+    background: #e33135;
+    border-radius: 13px;
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    vertical-align: middle;
+    line-height: 26px;
+    clear: both;
+    padding: 0px 10px 0px 10px
+}
+
+#sync2 .item h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center
+}
+
+.homeproduct img {
+    opacity: 1 !important
+}
+
+.menu-mobile-new {
+    font-size: 11px
+}
+
+.padding-left-right-5 {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.text-align-center {
+    text-align: center
+}
+
+.menu-mobile-new .imgconstain {
+    display: block;
+    overflow: hidden;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(-180deg, #4ad467 0, #3caa54 100%);
+    border: 1px solid #c3c3c3;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .12);
+    text-align: center;
+    padding-top: 11px
+}
+
+.filterbrandcontainer {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.filter-box {
+    background: #fff !important
+}
+
+.filterbrandcontainer a div {
+    border: 1px solid #eee;
+    position: relative;
+    margin: 0 0 -1px -1px;
+    color: #e33135;
+    text-align: center;
+    padding: 10px 0
+}
+
+.filterbrandcontainer a {
+    padding: 0 2px
+}
+
+.filterbrandcontainer a.bactive div {
+    border: 1px solid #52a2e1;
+    z-index: 1;
+    position: relative
+}
+
+.filterbrandcontainer a.bactive div:after {
+    content: "";
+    width: 23px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent url(/images/x.png) no-repeat left top;
+    background-size: 23px 20px;
+    z-index: 2
+}
+
+.filter-price li {
+    display: inline-block;
+    float: left
+}
+
+.filterbrandcontainer {
+    padding: 5px 0
+}
+
+#filter-box {
+    padding: 0
+}
+.img-cam-nhan {
+    border-radius: 50%;
+    width: 220px;
+    margin: 15px 0px 15px 0px;
+}
+.bgr-cam-nhan {
+    border-radius:50%;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px !important;
+    background-color: white;
+}
+.text-cam-nhan{
+    margin-bottom: 20px;
+}

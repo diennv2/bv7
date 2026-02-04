@@ -1,0 +1,14 @@
+.help-block-error {
+    color: red !important;
+}
+
+.page-sidebar.navbar-collapse.collapse {
+    transition: all .5s !important;
+}
+
+.page-content-wrapper .page-content {
+    transition: margin-left .5s !important;
+}
+.swal2-container {
+    z-index: 300000!important;
+}
