@@ -177530,3 +177530,934 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1770178876.2836
     'REQUEST_TIME' => 1770178876
 ]
+2026-02-04 06:59:00 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/plugins/select2/select2.css". in G:\Project-company\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('themes/plugins/...', Array)
+#1 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: KhÃ´ng tÃ¬m tháº¥y trang. in G:\Project-company\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#2 {main}
+2026-02-04 06:59:00 [::1][-][-][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    'myphamsdev' => '69eptrdgn56mfabee9mth3lgfp'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/dang-nhap-admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; myphamsdev=69eptrdgn56mfabee9mth3lgfp; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '62898'
+    'REDIRECT_URL' => '/backend/web/themes/plugins/select2/select2.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/themes/plugins/select2/select2.css'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184740.2567
+    'REQUEST_TIME' => 1770184740
+]
+2026-02-04 06:59:00 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/plugins/uniform/css/uniform.default.css". in G:\Project-company\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('themes/plugins/...', Array)
+#1 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: KhÃ´ng tÃ¬m tháº¥y trang. in G:\Project-company\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#2 {main}
+2026-02-04 06:59:00 [::1][-][-][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    'myphamsdev' => '69eptrdgn56mfabee9mth3lgfp'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/dang-nhap-admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; myphamsdev=69eptrdgn56mfabee9mth3lgfp; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '49658'
+    'REDIRECT_URL' => '/backend/web/themes/plugins/uniform/css/uniform.default.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/themes/plugins/uniform/css/uniform.default.css'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184740.2567
+    'REQUEST_TIME' => 1770184740
+]
+2026-02-04 06:59:00 [::1][-][69eptrdgn56mfabee9mth3lgfp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/plugins/uniform/jquery.uniform.min.js". in G:\Project-company\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('themes/plugins/...', Array)
+#1 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: KhÃ´ng tÃ¬m tháº¥y trang. in G:\Project-company\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#2 {main}
+2026-02-04 06:59:00 [::1][-][69eptrdgn56mfabee9mth3lgfp][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    'myphamsdev' => '69eptrdgn56mfabee9mth3lgfp'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/themes/plugins/uniform/jquery.uniform.min.js'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/dang-nhap-admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; myphamsdev=69eptrdgn56mfabee9mth3lgfp; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '64721'
+    'REDIRECT_URL' => '/backend/web/themes/plugins/uniform/jquery.uniform.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/themes/plugins/uniform/jquery.uniform.min.js'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184740.2885
+    'REQUEST_TIME' => 1770184740
+]
+2026-02-04 06:59:00 [::1][-][69eptrdgn56mfabee9mth3lgfp][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/plugins/select2/select2.min.js". in G:\Project-company\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('themes/plugins/...', Array)
+#1 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: KhÃ´ng tÃ¬m tháº¥y trang. in G:\Project-company\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#2 {main}
+2026-02-04 06:59:00 [::1][-][69eptrdgn56mfabee9mth3lgfp][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    'myphamsdev' => '69eptrdgn56mfabee9mth3lgfp'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/themes/plugins/select2/select2.min.js'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/dang-nhap-admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; myphamsdev=69eptrdgn56mfabee9mth3lgfp; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '52546'
+    'REDIRECT_URL' => '/backend/web/themes/plugins/select2/select2.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/themes/plugins/select2/select2.min.js'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184740.2921
+    'REQUEST_TIME' => 1770184740
+]
+2026-02-04 06:59:04 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/favicon.ico". in G:\Project-company\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('themes/favicon....', Array)
+#1 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: KhÃ´ng tÃ¬m tháº¥y trang. in G:\Project-company\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#2 {main}
+2026-02-04 06:59:04 [::1][-][-][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    'myphamsdev' => '69eptrdgn56mfabee9mth3lgfp'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/themes/plugins/select2/select2.min.js'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/dang-nhap-admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; myphamsdev=69eptrdgn56mfabee9mth3lgfp; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '52546'
+    'REDIRECT_URL' => '/backend/web/themes/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/themes/favicon.ico'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184744.811
+    'REQUEST_TIME' => 1770184744
+]
+2026-02-04 07:02:40 [::1][-][d20t8o9pms1a1qpg19jqhi9bfg][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#8 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#12 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#13 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#14 G:\Project-company\vendor\yiisoft\yii2\filters\AccessRule.php(156): yii\web\User->getIsGuest()
+#15 G:\Project-company\vendor\yiisoft\yii2\filters\AccessRule.php(111): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#16 G:\Project-company\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#17 G:\Project-company\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#18 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#19 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#20 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#21 G:\Project-company\vendor\yiisoft\yii2\web\Controller.php(189): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#22 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#23 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#24 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii/default/vie...', Array)
+#25 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#27 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#6 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#9 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#10 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#12 G:\Project-company\vendor\yiisoft\yii2\filters\AccessRule.php(156): yii\web\User->getIsGuest()
+#13 G:\Project-company\vendor\yiisoft\yii2\filters\AccessRule.php(111): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#14 G:\Project-company\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#15 G:\Project-company\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#16 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#17 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#18 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#19 G:\Project-company\vendor\yiisoft\yii2\web\Controller.php(189): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#22 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii/default/vie...', Array)
+#23 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#25 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it.
+
+)
+
+2026-02-04 07:02:34 [::1][-][d20t8o9pms1a1qpg19jqhi9bfg][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'pDK1REGjbeR39J_uPPHFzSmheI-oxdFl71PG-uIG9D8L85ra_ayC-S7IFNt_MqfuTwv0WnfntOyFkOujzxK0cg=='
+    'Generator' => [
+        'tableName' => 'tai_lieu'
+        'modelClass' => 'TaiLieu'
+        'ns' => 'common\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '1'
+        'generateQuery' => '0'
+        'queryNs' => 'common\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+    'myphamsdev' => 'd20t8o9pms1a1qpg19jqhi9bfg'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/themes/plugins/select2/select2.min.js'
+    '__id' => 2
+    'krajeeGridExportSalt' => 'ÊqÎð‡\'ÛS{÷Õ8-N5±j9™öŽD,¹jý('
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '829'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D; myphamsdev=d20t8o9pms1a1qpg19jqhi9bfg'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '52917'
+    'REDIRECT_URL' => '/backend/web/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184954.8436
+    'REQUEST_TIME' => 1770184954
+]
+2026-02-04 07:02:45 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#8 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#12 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#13 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#14 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(132): yii\web\User->getIsGuest()
+#15 G:\Project-company\bv7\backend\controllers\SiteController.php(99): yii\base\Component->__get('isGuest')
+#16 [internal function]: backend\controllers\SiteController->actionLogin()
+#17 G:\Project-company\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#20 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#21 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#6 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#9 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#10 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#12 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(132): yii\web\User->getIsGuest()
+#13 G:\Project-company\bv7\backend\controllers\SiteController.php(99): yii\base\Component->__get('isGuest')
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 G:\Project-company\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#18 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#19 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it.
+
+)
+
+2026-02-04 07:02:41 [::1][-][-][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+    'myphamsdev' => 'd20t8o9pms1a1qpg19jqhi9bfg'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/dang-nhap-admin'
+    '__id' => 2
+    'krajeeGridExportSalt' => 'ÊqÎð‡\'ÛS{÷Õ8-N5±j9™öŽD,¹jý('
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D; myphamsdev=d20t8o9pms1a1qpg19jqhi9bfg'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '52917'
+    'REDIRECT_URL' => '/backend/web/dang-nhap-admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/dang-nhap-admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770184960.9969
+    'REQUEST_TIME' => 1770184960
+]
+2026-02-04 07:10:24 [::1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): Error while reading greeting packet. PID=19356 in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#8 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#12 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#13 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#14 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(132): yii\web\User->getIsGuest()
+#15 G:\Project-company\bv7\backend\controllers\SiteController.php(99): yii\base\Component->__get('isGuest')
+#16 [internal function]: backend\controllers\SiteController->actionLogin()
+#17 G:\Project-company\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#20 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#21 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#23 {main}
+
+Next PDOException: SQLSTATE[HY000] [2006] MySQL server has gone away in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#8 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#12 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#13 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#14 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(132): yii\web\User->getIsGuest()
+#15 G:\Project-company\bv7\backend\controllers\SiteController.php(99): yii\base\Component->__get('isGuest')
+#16 [internal function]: backend\controllers\SiteController->actionLogin()
+#17 G:\Project-company\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#20 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#21 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2006] MySQL server has gone away in G:\Project-company\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(912): yii\db\Connection->open()
+#1 G:\Project-company\vendor\yiisoft\yii2\db\Connection.php(899): yii\db\Connection->getMasterPdo()
+#2 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 G:\Project-company\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 G:\Project-company\vendor\yiisoft\yii2\db\Query.php(253): yii\db\Command->queryOne()
+#6 G:\Project-company\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 G:\Project-company\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 G:\Project-company\bv7\common\models\Admin.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#9 G:\Project-company\vendor\yiisoft\yii2\web\User.php(657): common\models\Admin::findIdentity(2)
+#10 G:\Project-company\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#11 G:\Project-company\vendor\yiisoft\yii2\web\User.php(333): yii\web\User->getIdentity()
+#12 G:\Project-company\vendor\yiisoft\yii2\base\Component.php(132): yii\web\User->getIsGuest()
+#13 G:\Project-company\bv7\backend\controllers\SiteController.php(99): yii\base\Component->__get('isGuest')
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 G:\Project-company\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 G:\Project-company\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 G:\Project-company\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#18 G:\Project-company\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#19 G:\Project-company\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 G:\Project-company\bv7\backend\web\index.php(21): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2006
+    [2] => MySQL server has gone away
+)
+
+2026-02-04 07:09:42 [::1][-][-][info][application] $_COOKIE = [
+    'PHPFRONTSESSID' => 'm38j3dlcj3fn4kb2ob2tc099jd'
+    '_csrf-backend' => 'abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¯Á/ž¼ïY<‹5CÃb#fªŒÕß\"e‰jÃ-Y-@M\";}'
+    'myphamsdev' => 'd20t8o9pms1a1qpg19jqhi9bfg'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/dang-nhap-admin'
+    '__id' => 2
+    'krajeeGridExportSalt' => 'ÊqÎð‡\'ÛS{÷Õ8-N5±j9™öŽD,¹jý('
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.33/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.33/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=m38j3dlcj3fn4kb2ob2tc099jd; _csrf-backend=abf4bb2f0ca0ab3ba2216d9f37c297adf9e1b05806be047d72b621916023ade9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%AF%C1%2F%9E%BC%0F%EF%1DY%3C%8B5C%C3b%23f%AA%8C%D5%DF%22e%89j%C3-Y-%14%40M%22%3B%7D; myphamsdev=d20t8o9pms1a1qpg19jqhi9bfg'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\JetBrains Rider 2025.1.2\\bin;;C:\\Users\\DienNguyen\\AppData\\Roaming\\npm;C:\\Users\\DienNguyen\\.dotnet\\tools;C:\\Users\\DienNguyen\\flutter\\bin;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1\\bin;;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\bin;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\Scripts;C:\\Users\\DienNguyen\\AppData\\Local\\Python\\PythonCore-3.14-64\\;C:\\Users\\DienNguyen\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Project-company/bv7'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'G:/Project-company/bv7/backend/web/index.php'
+    'REMOTE_PORT' => '60345'
+    'REDIRECT_URL' => '/backend/web/dang-nhap-admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/dang-nhap-admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1770185382.1017
+    'REQUEST_TIME' => 1770185382
+]
